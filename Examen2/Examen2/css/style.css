@@ -1,0 +1,71 @@
+.ocultar
+{
+	display: none;
+}
+
+.verde
+{
+	background-color: green;
+}
+
+.rojo
+{
+	background-color: red;
+}
+
+.gris{
+	background-color: grey;
+}
+
+.cabecera
+{
+	text-align: center;
+	width: 100%
+}
+
+.margentop4
+{
+	margin-top: 40px;
+}
+
+.margentop2
+{
+	margin-top: 20px;
+}
+
+.left
+{
+	text-align: left;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.tamano
+{
+	width: 100%;
+}
+
+.panel
+{
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	background-color: white;
+}
+
+.fondo
+{
+	background-color: #63f5ee;
+}
+
+.span
+{
+	padding: 10px;
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Examen 2</title>
+	<link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+<body class="fondo">
+<div class="cabecera">
+	<h3>UNIVERSIDAD DE CÓRDOBA<br>
+FACULTAD DE INGENIERÍAS<br>
+PROGRAMA DE INGENIERÍA DE SISTEMAS</h3>
+</div>
+<div class="cabecera"><h4>Examen 2</h4></div>
+<div class="cabecera">
+	<h4>
+		Temas: Javascript + Jquery
+	</h4>
+</div>
+<div class="cabecera" id="datosestudiante">
+	
+</div>
+
+<div class="cabecera margentop2" id="panel">
+	<span class="span" id="s1">1</span>
+	<span class="span" id="s2">2</span>
+	<span class="span" id="s3">3</span>
+	<span class="span" id="s4">4</span>
+	<span class="span" id="s5">5</span>
+	<span class="span" id="s6">6</span>
+	<span class="span" id="s7">7</span>
+	<span class="span" id="s8">8</span>
+	<span class="span" id="s9">9</span>	
+</div>
+<div class="cabecera margentop2"  id="progreso">
+	
+</div>
+<div class="cabecera  margentop4" id="inicio">
+<label>Nombre y apellidos</label><br>
+<input type="text" name="nombre" id="nombre"><br>
+<button class="margentop2" onclick="iniciartest()">Iniciar test</button>	
+</div>
+<div class="panel ocultar" id="divpreguntas">
+	<div class="ocultar" id="p1">
+		primer pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r1" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r1" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r1" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r1" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar" id="p2">
+		segunda pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r2" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r2" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r2" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r2" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar" id="p3">
+		Tercera pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r3" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r3" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r3" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r3" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar" id="p4">
+		Cuarta pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r4" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r4" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r4" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r4" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar" id="p5">
+		Quita pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r5" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r5" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r5" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r5" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar" id="p6">
+		Sexta pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r6" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r6" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r6" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r6" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar" id="p7">
+		Septima pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r7" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r7" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r7" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r7" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar" id="p8">
+		Ovtava pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r8" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r8" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r8" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r8" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar" id="p9">
+		Novena pregunta
+		<ul>
+			<li >
+				<input type="radio" name="r9" id="ra" value="A" />Opción a
+			</li>
+			<li>
+				<input type="radio" name="r9" id="rb" value="B" />Opción b
+			</li>
+			<li>
+				<input type="radio" name="r9" id="rc" value="C" />Opción c
+			</li>
+			<li>
+				<input type="radio" name="r9" id="rd" value="D" />Opción d
+			</li>
+		</ul>
+	</div>
+	<div class="ocultar center" id="div_botones">
+		<button id="btn-atras" onclick="atras()">Anterior</button>
+		<button id="btn-siguiente" onclick="siguiente()">Siguiente</button>
+		<button class="ocultar" id="btn-finalizar" onclick="finalizar()">Finalizar</button>
+	</div>
+	<div class="margentop2 ocultar" id="resultados">
+		<div class="center margentop2"><h3>Resultados obtenidos</h3></div>
+		<table border="1" class="tamano margentop2">
+			<thead>
+				<tr>
+					<td>Pregunta</td>
+					<td>Respuesta dada</td>
+					<td>Respuesta correcta</td>
+					<td>Resultado</td>
+				</tr>	
+			</thead>
+			<tbody id="cuerporesultado">
+					
+			</tbody>
+		</table>
+		<div id="estadotest"></div>
+		<button class="margentop2" id="btn-reestablecer" onclick="reestablecer()">Nuevo test</button>
+	</div>
+
+</div>
+
+
+</body>
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+</html>
